@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aws-cli-plugins"
+version = "0.1.0"
+description = ""
+authors = ["Patrick Delaney <pd@patrickdelaney.dev>"]
+readme = "README.md"
+packages = [{include = "aws_cli_plugins"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+awscli = "^1.29"
+feedparser = "^6.0.10"
+colored = "^2.2.3"
+
+[build-system]
+requires = ["setuptools", "poetry-core"]
+build-backend = "poetry.core.masonry.api"
